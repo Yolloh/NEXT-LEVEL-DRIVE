@@ -1,0 +1,174 @@
+
+em {
+  font-style: italic;
+  color: #A1A1A1;
+}
+
+#quiz {
+  
+}
+
+.glyphicon {
+  margin-right: 10px;
+}
+
+.title {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Roboto Slab', serif;
+  font-size: 2.5em;
+  text-align: center;
+  display: block;
+  max-width: 50%;
+  padding: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: -5px;
+  margin-bottom: 20px;
+  color: white;
+  background: #23353F; 
+  text-shadow: 0px 4px 6px #085EFF;
+  border-radius: 0px 0px 0px 0px;
+  box-shadow: 0px 2px 2px rgba(0,0,0,.2);
+}
+
+p.lead {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
+  font-size: 1.33em;
+}
+
+.content {
+  margin-left: auto;
+  margin-right: auto;
+  background: #23353F; 
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  max-width: 50%;
+  min-height: 300px;
+  border-radius: 5px 5px 5px 5px; /* rounded corners */
+  box-shadow: 0px 2px 2px rgba(0,0,0,.4);
+}
+
+  .content h4 {
+    color: white;
+    text-shadow: 0px 1px 1px rgba(0,0,0,.6);
+  }
+
+.answer {
+  margin-left: 10px;
+  padding-left: 10px;
+  color: white;
+  text-shadow: 0px 1px 2px rgba(0,0,0,.6);
+}
+
+  .answer span {
+    margin-left: 10px;
+  }
+
+  .answer:hover {
+    color: white;
+    background: rgba(0,0,0,.25);
+    -webkit-transition-property: background;
+    transition-property: background;
+    transition-duration: .2s;
+    border-radius: 5px 5px 5px 5px;
+  }
+
+
+  #choices {
+    margin-bottom: 40px;
+    color: #4D4D4D;
+  }
+
+  #choices input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+#button-con{
+  position: absolute;
+  top: 420px;
+}
+
+.btn#next {
+  background:#23353F; 
+  color: white;
+}
+
+  .btn#next:hover {
+    background: #0073E6;
+    -webkit-transition-property: background;
+    transition-property: background;
+    transition-duration: .2s;
+  }
+
+#score-con {
+  margin-top: -380px;
+  padding: 20px;
+  margin-left: 45%;
+  border-radius: 5px 5px 5px 5px; /* rounded corners */
+  box-shadow: 0px 2px 2px rgba(0,0,0,.4);
+  max-width: 10%;
+  background: #CCCCCC;
+}
+
+  #score-con h4 {
+    color: white;
+    text-shadow: 0px 1px 1px rgba(0,0,0,.6);
+  }
+
+  #score {
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    text-align: center;
+    font-size: 4em;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    background: rgba(0,0,0,.5);
+    border-radius: 5px 5px 5px;
+    text-shadow: 0px 4px 20px rgba(0,0,0,.5);
+  }
+
+
+#clock-widget {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  margin-left: -250px;
+  margin-top: -250px;
+}
+
+#date {
+  display: flex;
+  position: relative;
+  text-align: center;
+  color:#eee;
+  font-family: arial;
+  font-variant: small-caps;
+  font-weight: bolder;
+  top: -266px;
+  flex-direction: column;
+}
+
+.date {
+  font-size: 25px;
+}
+
+.time {
+  font-size: 15px;
+}
+
+.wel{
+color:#eee;
+font-size:3em;
+ opacity: 0.9;
+}
+#canvas{
+ opacity: 0.3;
+}
+
+
